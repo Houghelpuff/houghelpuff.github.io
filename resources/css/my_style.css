@@ -8,6 +8,6 @@ header {
 
 .header-img {
   height: auto;
-  width: 100%;
+  width: auto;
   opacity: .2;
 }
