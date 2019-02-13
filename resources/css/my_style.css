@@ -2,6 +2,12 @@ body {
   background-color: #d9d9d9;
 }
 
+header {
+  background-color: grey;
+}
+
 .header-img {
+  height: 100%;
+  width: 100%;
   opacity: .2;
 }
