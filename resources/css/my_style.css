@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: grey;
+  background-image: url('../img/header_img.jpg')
 }
 
 .header-img {
