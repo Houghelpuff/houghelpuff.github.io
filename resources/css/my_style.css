@@ -1,14 +1,36 @@
 body {
   background-color: #d9d9d9;
+  width: 100%;
+  height: 100%;
+  font-family: Bookman;
 }
 
-header {
+.header{
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: rgb(82, 28, 104);
+  float: top !important; 
+  height: 150px;
+}
+
+ul a {
+  background-color: rgb(251, 137, 255);
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  background-color: grey;
+  font-size: 150%;
+  display: inline-block;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
 }
 
-.header-img {
-  height: auto;
-  width: auto;
-  opacity: .2;
+li {
+  display: inline-block;
+}
+
+.shadow_button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 }
