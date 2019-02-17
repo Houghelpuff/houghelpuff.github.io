@@ -51,3 +51,7 @@ body {
 .btn-outline-primary:hover, .btn-outline-primary:active {
   background-color: #ec98e8;
 }
+
+.space_between_btn{
+  margin-left: 10px;
+}
