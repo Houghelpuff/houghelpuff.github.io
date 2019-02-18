@@ -2,9 +2,17 @@ body {
   background-color: #474747;
 }
 
+.profile_back_img{
+  background-image: url('../img/container_back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
 .profile_img {
-  height: 200px;
   width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .navbar_back {
@@ -12,8 +20,7 @@ body {
 }
 
 .profile_back {
-  background-color: #474747;
-  height: 700px;
+  height: 725px;
   border-radius: 5px;
 }
 
