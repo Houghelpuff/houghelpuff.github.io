@@ -2,6 +2,14 @@ body {
   background-color: #474747;
 }
 
+.p_space_lg {
+  padding-bottom: 150px;
+}
+
+.p_space_md {
+  padding-bottom: 10px;
+}
+
 .div_test {
   border: 1px solid yellow;
 }
@@ -72,22 +80,19 @@ body {
   color: white;
 }
 
-.about_me_bg1 {
-  object-fit: cover;
-  height: 500px;
-  width: 550px;
-  overflow: hidden;
+
+.jumbotron-fluid {
+  background-image: url('../img/abt_header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
-.about_me_bg2 {
-  object-fit: cover;
-  height: 500px;
-  width: 550px;
-  overflow: hidden;
+.abt_header {
+  color: white;
 }
 
-.about_me_bg3 {
-  object-fit: cover;
-  height: 500px;
-  width: 550px;
+.abt_list {
+  color: white;
+  font-size: 120%;
 }
