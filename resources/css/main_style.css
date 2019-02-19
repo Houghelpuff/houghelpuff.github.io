@@ -2,6 +2,10 @@ body {
   background-color: #474747;
 }
 
+.div_test {
+  border: 1px solid yellow;
+}
+
 .profile_back_img{
   background-image: url('../img/container_back.png');
   background-size: cover;
@@ -68,8 +72,22 @@ body {
   color: white;
 }
 
-.about_me_bg {
+.about_me_bg1 {
   object-fit: cover;
-  height: 300px;
-  width: 500px;
+  height: 500px;
+  width: 550px;
+  overflow: hidden;
+}
+
+.about_me_bg2 {
+  object-fit: cover;
+  height: 500px;
+  width: 550px;
+  overflow: hidden;
+}
+
+.about_me_bg3 {
+  object-fit: cover;
+  height: 500px;
+  width: 550px;
 }
