@@ -15,10 +15,6 @@ body {
   object-fit: cover;
 }
 
-.navbar_back {
-  background-color: #fa1818;
-}
-
 .profile_back {
   height: 725px;
   border-radius: 5px;
@@ -38,7 +34,7 @@ body {
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
@@ -61,4 +57,19 @@ body {
 
 .space_between_btn{
   margin-left: 10px;
+}
+
+.top_padding {
+  padding-top: 10px;
+}
+
+.proj_cards {
+  background-color: #474747;
+  color: white;
+}
+
+.about_me_bg {
+  object-fit: cover;
+  height: 300px;
+  width: 500px;
 }
