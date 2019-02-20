@@ -128,3 +128,7 @@ body {
   background-color: white;
   color: #1dcaff;
 }
+
+.twitter_frame_font {
+  font-size: 50% !important;
+}
