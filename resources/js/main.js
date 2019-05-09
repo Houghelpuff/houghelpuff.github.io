@@ -1,1 +1,0 @@
-document.getElementsByClassName('profile_img').style.
